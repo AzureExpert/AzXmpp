@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Settings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.microsoft.com/2011/01/fabric">
+   <Section Name="AuthenticationReplicatorConfig">
+      <Parameter Name="ReplicatorEndpoint" Value="AuthenticationReplicatorEndpoint" />
+   </Section>
+   <Section Name="AuthenticationReplicatorSecurityConfig">
+      <Parameter Name="CredentialType" Value="None" />
+   </Section>
+   <Section Name="AuthenticationLocalStoreConfig">
+      <Parameter Name="MaxAsyncCommitDelayInMilliseconds" Value="100" />
+      <Parameter Name="MaxVerPages" Value="32768" />
+   </Section>
+   <Section Name="UnboundClientReplicatorConfig">
+      <Parameter Name="ReplicatorEndpoint" Value="UnboundClientReplicatorEndpoint" />
+   </Section>
+   <Section Name="UnboundClientReplicatorSecurityConfig">
+      <Parameter Name="CredentialType" Value="None" />
+   </Section>
+   <Section Name="UnboundClientLocalStoreConfig">
+      <Parameter Name="MaxAsyncCommitDelayInMilliseconds" Value="100" />
+      <Parameter Name="MaxVerPages" Value="32768" />
+   </Section>
+   <Section Name="Stream">
+      <Parameter Name="Features" Value="Authentication" />
+   </Section>
+   <Section Name="Authentication">
+      <Parameter Name="Mechanisms" Value="Plain" />
+   </Section>
+</Settings>

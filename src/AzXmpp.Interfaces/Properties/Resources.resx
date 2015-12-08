@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="XmppErrorCode_AccountDisabled" xml:space="preserve">
+    <value>The account is disabled.</value>
+  </data>
+  <data name="XmppErrorCode_AuthenticationAborted" xml:space="preserve">
+    <value>Authentication was aborted by the host.</value>
+  </data>
+  <data name="XmppErrorCode_AuthenticationFailed" xml:space="preserve">
+    <value>Authentication with the host failed.</value>
+  </data>
+  <data name="XmppErrorCode_BadFormat" xml:space="preserve">
+    <value>The entity has sent XML that cannot be processed.</value>
+  </data>
+  <data name="XmppErrorCode_BadNamespacePrefix" xml:space="preserve">
+    <value>The entity has sent a namespace prefix that is unsupported.</value>
+  </data>
+  <data name="XmppErrorCode_Conflict" xml:space="preserve">
+    <value>The server is closing the active stream for this entity because a new stream has been initiated that conflicts with the existing stream.</value>
+  </data>
+  <data name="XmppErrorCode_ConnectionTimeout" xml:space="preserve">
+    <value>The entity has not generated any traffic over the stream for some period of time.</value>
+  </data>
+  <data name="XmppErrorCode_CredentialsExpired" xml:space="preserve">
+    <value>The account credentials have expired.</value>
+  </data>
+  <data name="XmppErrorCode_EncryptionRequired" xml:space="preserve">
+    <value>Encryption is required to authenticate.</value>
+  </data>
+  <data name="XmppErrorCode_HostGone" xml:space="preserve">
+    <value>The value of the 'to' attribute provided by the initiating entity in the stream header corresponds to a hostname that is no longer hosted by the server.</value>
+  </data>
+  <data name="XmppErrorCode_HostUnknown" xml:space="preserve">
+    <value>The value of the 'to' attribute provided by the initiating entity in the stream header does not correspond to a hostname that is hosted by the server.</value>
+  </data>
+  <data name="XmppErrorCode_ImproperAddressing" xml:space="preserve">
+    <value>A stanza sent between two servers lacks a 'to' or 'from' attribute (or the attribute has no value).</value>
+  </data>
+  <data name="XmppErrorCode_InternalServerError" xml:space="preserve">
+    <value>The server has experienced a misconfiguration or an otherwise-undefined internal error that prevents it from servicing the stream.</value>
+  </data>
+  <data name="XmppErrorCode_InvalidFrom" xml:space="preserve">
+    <value>The JID or hostname provided in a 'from' address does not match an authorized JID.</value>
+  </data>
+  <data name="XmppErrorCode_InvalidID" xml:space="preserve">
+    <value>The stream ID or dialback ID is invalid or does not match an ID previously provided.</value>
+  </data>
+  <data name="XmppErrorCode_InvalidImpersonation" xml:space="preserve">
+    <value>The impersonation identity is incorrect.</value>
+  </data>
+  <data name="XmppErrorCode_InvalidMechanism" xml:space="preserve">
+    <value>The authentication mechanism is invalid.</value>
+  </data>
+  <data name="XmppErrorCode_InvalidNamespace" xml:space="preserve">
+    <value>The streams namespace name is something other than the required standard namespace.</value>
+  </data>
+  <data name="XmppErrorCode_InvalidXml" xml:space="preserve">
+    <value>The entity has sent invalid XML over the stream to a server that performs validation.</value>
+  </data>
+  <data name="XmppErrorCode_MalformedRequest" xml:space="preserve">
+    <value>The request is malformed.</value>
+  </data>
+  <data name="XmppErrorCode_MechanismTooWeak" xml:space="preserve">
+    <value>The authentication mechanism is too weak.</value>
+  </data>
+  <data name="XmppErrorCode_NotAuthorized" xml:space="preserve">
+    <value>The entity has attempted to send data before the stream has been authenticated, or otherwise is not authorized to perform an action related to stream negotiation.</value>
+  </data>
+  <data name="XmppErrorCode_PolicyViolation" xml:space="preserve">
+    <value>The entity has violated some local service policy.</value>
+  </data>
+  <data name="XmppErrorCode_RemoteConnectionFailed" xml:space="preserve">
+    <value>The server is unable to properly connect to a remote entity that is required for authentication or authorization.</value>
+  </data>
+  <data name="XmppErrorCode_RequiredFeatureUnknown" xml:space="preserve">
+    <value>The required entity has sent a required feature that is not supported.</value>
+  </data>
+  <data name="XmppErrorCode_ResourceConstraint" xml:space="preserve">
+    <value>The server lacks the system resources necessary to service the stream.</value>
+  </data>
+  <data name="XmppErrorCode_RestrictedXml" xml:space="preserve">
+    <value>The entity has attempted to send restricted XML features.</value>
+  </data>
+  <data name="XmppErrorCode_SeeOtherHost" xml:space="preserve">
+    <value>The server will not provide service to the initiating entity but is redirecting traffic to another host.</value>
+  </data>
+  <data name="XmppErrorCode_Stanza" xml:space="preserve">
+    <value>Unknown stanza error.</value>
+  </data>
+  <data name="XmppErrorCode_SystemShutdown" xml:space="preserve">
+    <value>The server is being shut down and all active streams are being closed.</value>
+  </data>
+  <data name="XmppErrorCode_TemporaryAuthFailure" xml:space="preserve">
+    <value>Authentication is temporarily unavailable.</value>
+  </data>
+  <data name="XmppErrorCode_Unknown" xml:space="preserve">
+    <value>An unknown error occurred while communicating with the XMPP server.</value>
+  </data>
+  <data name="XmppErrorCode_UnrecognizedStream" xml:space="preserve">
+    <value>The stream was not recognized.</value>
+  </data>
+  <data name="XmppErrorCode_UnsupportedEncoding" xml:space="preserve">
+    <value>The initiating entity has encoded the stream in an encoding that is not supported by the server.</value>
+  </data>
+  <data name="XmppErrorCode_UnsupportedStanzaType" xml:space="preserve">
+    <value>The initiating entity has sent a first-level child of the stream that is not supported by the server.</value>
+  </data>
+  <data name="XmppErrorCode_UnsupportedVersion" xml:space="preserve">
+    <value>The value of the 'version' attribute provided by the initiating entity in the stream header specifies a version of XMPP that is not supported by the server.</value>
+  </data>
+  <data name="XmppErrorCode_XmlNotWellFormed" xml:space="preserve">
+    <value>The initiating entity has sent XML that is not well-formed.</value>
+  </data>
+  <data name="XmppStanzaErrorCode_Authenticate" xml:space="preserve">
+    <value>Authenticate before attempting this request.</value>
+  </data>
+  <data name="XmppStanzaErrorCode_Cancel" xml:space="preserve">
+    <value>The request has failed.</value>
+  </data>
+  <data name="XmppStanzaErrorCode_Continue" xml:space="preserve">
+    <value>The request has succeeded.</value>
+  </data>
+  <data name="XmppStanzaErrorCode_Modify" xml:space="preserve">
+    <value>Modify the request and try again.</value>
+  </data>
+  <data name="XmppStanzaErrorCode_Wait" xml:space="preserve">
+    <value>Wait and re-attempt the request.</value>
+  </data>
+</root>
